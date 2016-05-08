@@ -38,7 +38,6 @@ namespace IdleMaster
             btnIdle.Text = localization.strings.force_idle;
             this.Text = localization.strings.search_game;
             label1.Text = localization.strings.game_to_search;
-            label2.Text = localization.strings.hours;
             label2.Text = string.Empty;
 
             await LoadBadgesAsync();
@@ -53,7 +52,7 @@ namespace IdleMaster
                 CurrentGame = AllGames.FirstOrDefault(b => b.Name == lstGames.SelectedItem.ToString());
                 if (CurrentGame != null)
                 {
-                    label2.Text = @"Currently in idle: " + CurrentGame.Name;
+                    label2.Text = localization.strings.currently_ingame + @" " + CurrentGame.Name;
                     CurrentGame.Idle();
                 }
             }
