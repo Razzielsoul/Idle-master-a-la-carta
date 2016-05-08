@@ -44,7 +44,7 @@ namespace IdleMaster
             this.lstGames.FormattingEnabled = true;
             this.lstGames.Location = new System.Drawing.Point(13, 77);
             this.lstGames.Name = "lstGames";
-            this.lstGames.Size = new System.Drawing.Size(299, 238);
+            this.lstGames.Size = new System.Drawing.Size(299, 277);
             this.lstGames.Sorted = true;
             this.lstGames.TabIndex = 0;
             // 
@@ -68,10 +68,11 @@ namespace IdleMaster
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 335);
-            this.label2.Name = "label3";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Location = new System.Drawing.Point(12, 362);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 0;
+            this.label2.Text = "Currently In-Game";
             // 
             // btnIdle
             // 
@@ -101,8 +102,8 @@ namespace IdleMaster
             this.Name = "frmGames";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Idle Specific Game";
-            this.Load += new System.EventHandler(this.frmGames_Load);
             this.Closed += new System.EventHandler(this.frmGames_Closed);
+            this.Load += new System.EventHandler(this.frmGames_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
