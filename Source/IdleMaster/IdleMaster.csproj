@@ -107,6 +107,12 @@
     <Compile Include="frmAbout.Designer.cs">
       <DependentUpon>frmAbout.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGames.Designer.cs">
+      <DependentUpon>frmGames.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmBlacklist.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +172,9 @@
     <Compile Include="SteamProfile.cs" />
     <EmbeddedResource Include="frmAbout.resx">
       <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGames.resx">
+      <DependentUpon>frmGames.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBlacklist.resx">
       <DependentUpon>frmBlacklist.cs</DependentUpon>

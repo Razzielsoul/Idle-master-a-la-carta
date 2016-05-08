@@ -141,11 +141,17 @@
   <data name="file" xml:space="preserve">
     <value>&amp;Archivo</value>
   </data>
+  <data name="force_idle" xml:space="preserve">
+    <value>Forzar Idle</value>
+  </data>
   <data name="game" xml:space="preserve">
     <value>&amp;Juego</value>
   </data>
   <data name="games_left_to_idle" xml:space="preserve">
     <value>juegos restantes a idlear</value>
+  </data>
+  <data name="game_to_search" xml:space="preserve">
+    <value>Juego a Buscar</value>
   </data>
   <data name="help" xml:space="preserve">
     <value>&amp;Ayuda</value>
@@ -195,11 +201,17 @@
   <data name="reading_badge_page" xml:space="preserve">
     <value>Leyendo página de insignias</value>
   </data>
+  <data name="reading_game_page" xml:space="preserve">
+    <value>Leyendo página de juegos</value>
+  </data>
   <data name="release_notes" xml:space="preserve">
     <value>&amp;Notas de la versión</value>
   </data>
   <data name="resume_idling" xml:space="preserve">
     <value>&amp;Continuar el "idle"</value>
+  </data>
+  <data name="search_game" xml:space="preserve">
+    <value>Buscar juego</value>
   </data>
   <data name="settings" xml:space="preserve">
     <value>&amp;Configuración</value>

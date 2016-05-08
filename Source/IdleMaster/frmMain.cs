@@ -692,6 +692,7 @@ namespace IdleMaster
             exitToolStripMenuItem.Text = localization.strings.exit;
             pauseIdlingToolStripMenuItem.Text = localization.strings.pause_idling;
             resumeIdlingToolStripMenuItem.Text = localization.strings.resume_idling;
+            searchGameToolStripMenuItem.Text = localization.strings.search_game;
             skipGameToolStripMenuItem.Text = localization.strings.skip_current_game;
             blacklistCurrentGameToolStripMenuItem.Text = localization.strings.blacklist_current_game;
             statisticsToolStripMenuItem.Text = localization.strings.statistics;
@@ -949,6 +950,12 @@ namespace IdleMaster
         private void resumeIdlingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             btnResume.PerformClick();
+        }
+
+        private void searchGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new frmGames();
+            frm.ShowDialog();
         }
 
         private void skipGameToolStripMenuItem_Click(object sender, EventArgs e)

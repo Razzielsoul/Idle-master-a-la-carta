@@ -53,6 +53,7 @@ namespace IdleMaster
             this.gameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pauseIdlingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resumeIdlingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.searchGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.skipGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.blacklistCurrentGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -217,6 +218,7 @@ namespace IdleMaster
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingsToolStripMenuItem,
+            this.searchGameToolStripMenuItem,
             this.blacklistToolStripMenuItem,
             this.toolStripMenuItem1,
             this.exitToolStripMenuItem});
@@ -281,6 +283,14 @@ namespace IdleMaster
             this.resumeIdlingToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.resumeIdlingToolStripMenuItem.Text = "Resume Idling";
             this.resumeIdlingToolStripMenuItem.Click += new System.EventHandler(this.resumeIdlingToolStripMenuItem_Click);
+            // 
+            // searchToolStripMenuItem
+            // 
+            this.searchGameToolStripMenuItem.Image = global::IdleMaster.Properties.Resources.imgView;
+            this.searchGameToolStripMenuItem.Name = "searchGameToolStripMenuItem";
+            this.searchGameToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.searchGameToolStripMenuItem.Text = "&Search Game";
+            this.searchGameToolStripMenuItem.Click += new System.EventHandler(this.searchGameToolStripMenuItem_Click);
             // 
             // skipGameToolStripMenuItem
             // 
@@ -626,6 +636,7 @@ namespace IdleMaster
         private ToolStripMenuItem gameToolStripMenuItem;
         private ToolStripMenuItem pauseIdlingToolStripMenuItem;
         private ToolStripMenuItem resumeIdlingToolStripMenuItem;
+        private ToolStripMenuItem searchGameToolStripMenuItem;
         private ToolStripMenuItem skipGameToolStripMenuItem;
         private NotifyIcon notifyIcon1;
         private PictureBox picReadingPage;

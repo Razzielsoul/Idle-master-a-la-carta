@@ -201,11 +201,29 @@ namespace IdleMaster.localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Force Idle.
+        /// </summary>
+        internal static string force_idle {
+            get {
+                return ResourceManager.GetString("force_idle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &amp;Game.
         /// </summary>
         internal static string game {
             get {
                 return ResourceManager.GetString("game", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game to search.
+        /// </summary>
+        internal static string game_to_search {
+            get {
+                return ResourceManager.GetString("game_to_search", resourceCulture);
             }
         }
         
@@ -525,6 +543,15 @@ namespace IdleMaster.localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reading game page.
+        /// </summary>
+        internal static string reading_game_page {
+            get {
+                return ResourceManager.GetString("reading_game_page", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &amp;Release Notes.
         /// </summary>
         internal static string release_notes {
@@ -570,6 +597,15 @@ namespace IdleMaster.localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Search Game.
+        /// </summary>
+        internal static string search_game {
+            get {
+                return ResourceManager.GetString("search_game", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &amp;Settings.
         /// </summary>
         internal static string settings {
@@ -584,17 +620,6 @@ namespace IdleMaster.localization {
         internal static string show_username {
             get {
                 return ResourceManager.GetString("show_username", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to &amp;Search Game.
-        /// </summary>
-        internal static string search_game
-        {
-            get
-            {
-                return ResourceManager.GetString("search_game", resourceCulture);
             }
         }
         

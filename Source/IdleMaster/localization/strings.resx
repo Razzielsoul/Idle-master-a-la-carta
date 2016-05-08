@@ -141,11 +141,17 @@
   <data name="file" xml:space="preserve">
     <value>&amp;File</value>
   </data>
+  <data name="force_idle" xml:space="preserve">
+    <value>Force Idle</value>
+  </data>
   <data name="game" xml:space="preserve">
     <value>&amp;Game</value>
   </data>
   <data name="games_left_to_idle" xml:space="preserve">
     <value>games left to idle</value>
+  </data>
+  <data name="game_to_search" xml:space="preserve">
+    <value>Game to search</value>
   </data>
   <data name="help" xml:space="preserve">
     <value>&amp;Help</value>
@@ -195,11 +201,17 @@
   <data name="reading_badge_page" xml:space="preserve">
     <value>Reading badge page</value>
   </data>
+  <data name="reading_game_page" xml:space="preserve">
+    <value>Reading game page</value>
+  </data>
   <data name="release_notes" xml:space="preserve">
     <value>&amp;Release Notes</value>
   </data>
   <data name="resume_idling" xml:space="preserve">
     <value>&amp;Resume Idling</value>
+  </data>
+  <data name="search_game" xml:space="preserve">
+    <value>Search Game</value>
   </data>
   <data name="settings" xml:space="preserve">
     <value>&amp;Settings</value>
