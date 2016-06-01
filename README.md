@@ -1,7 +1,7 @@
 Note
 ===========
 
-This isn't Idle Master, and I'm not trying to take credit of their work, I'm just adding options to their application, feel free to use my code.
+This isn't Idle Master, and I'm not trying to take credit from their work, I'm just adding options to their application, feel free to use my code.
 
 Idle Master
 ===========
